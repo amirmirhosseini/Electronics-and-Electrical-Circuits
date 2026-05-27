@@ -1,0 +1,137 @@
+
+**** 07/04/25 18:16:46 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-s2"  [ c:\users\alimi\desktop\elec project\file2\ep2-schematic1-s2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ep2-schematic1-s2.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.5ms 0 1u 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\ep2-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING ep2-SCHEMATIC1.net ****
+* source EP2
+Q_Q1         N01207 IN N00954 Q2N4355
+R_R1         IN N00857  360k  
+C_C1         N01061 IN  1u  
+R_R2         N00954 N00857  1k  
+C_C3         N01576 OUT  1u  
+R_R3         OUT1 N00857  326594  
+V_V2         N00857 0 10Vdc
+R_R4         N01487 N00857  1k  
+R_R5         0 IN  180k  
+R_R6         0 N01207  322.7  
+R_R7         0 OUT1  360k  
+C_C2         N01207 OUT1  1u  
+R_R8         N01576 N01547  0.5k  
+R_R9         0 N01576  0.5k  
+V_V4         N01061 0  
++SIN 0 3.7 10k 0 0 0
+Q_Q2         N01487 OUT1 N01547 BC368 
+R_R10         0 OUT  6.75  
+
+**** RESUMING ep2-schematic1-s2.sim.cir ****
+.END
+
+**** 07/04/25 18:16:46 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-s2"  [ c:\users\alimi\desktop\elec project\file2\ep2-schematic1-s2.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q2N4355         BC368           
+               PNP             NPN             
+          IS   12.270000E-12   14.060000E-15 
+          BF  194.8           187.6          
+          NF    1               1            
+         VAF  100             100            
+         IKF    1.123           4.103        
+         ISE   12.270000E-12  137.200000E-15 
+          NE    1.649           1.468        
+          BR    1.184           4.541        
+          NR    1               1            
+         IKR                    1.701        
+         ISC                   44.130000E-15 
+          NC                    1.471        
+          NK                     .5507       
+          RB   10                            
+          RC     .6              .091        
+         CJE  106.700000E-12  156.000000E-12 
+         VJE                     .5          
+         MJE     .5168           .3333       
+         CJC   48.280000E-12   52.240000E-12 
+         VJC                     .5          
+         MJC     .5615           .3333       
+          TF  867.000000E-12  964.800000E-12 
+         XTF     .8             1.001000E+03 
+         VTF    2              10            
+         ITF     .2           595.3          
+          TR  474.500000E-09   10.000000E-09 
+         XTB    1.5             1.5          
+          CN    2.2             2.42         
+           D     .52             .87         
+
+
+**** 07/04/25 18:16:46 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-s2"  [ c:\users\alimi\desktop\elec project\file2\ep2-schematic1-s2.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   IN)    5.7413  (  OUT)    0.0000  ( OUT1)    2.6477  (N00857)   10.0000     
+
+(N00954)    6.2456 (N01061)    0.0000 (N01207)    1.2051 (N01487)    8.0300     
+
+(N01547)    1.9852 (N01576)     .9926 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -5.759E-03
+    V_V4         0.000E+00
+
+    TOTAL POWER DISSIPATION   5.76E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .03
+

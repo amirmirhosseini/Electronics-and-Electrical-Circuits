@@ -1,0 +1,19 @@
+* source EP2
+Q_Q1         N01207 IN N00954 Q2N4355
+R_R1         IN N00857  360k  
+C_C1         N01061 IN  1u  
+R_R2         N00954 N00857  1k  
+C_C3         N01576 OUT  1u  
+R_R3         OUT1 N00857  326594  
+V_V2         N00857 0 10Vdc
+R_R4         N01487 N00857  1k  
+R_R5         0 IN  180k  
+R_R6         0 N01207  322.7  
+R_R7         0 OUT1  360k  
+C_C2         N01207 OUT1  1u  
+R_R8         N01576 N01547  0.5k  
+R_R9         0 N01576  0.5k  
+V_V4         N01061 0  
++SIN 0 3.7 10k 0 0 0
+Q_Q2         N01487 OUT1 N01547 BC368 
+R_R10         0 OUT  6.75  

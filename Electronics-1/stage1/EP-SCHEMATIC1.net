@@ -1,0 +1,14 @@
+* source EP
+V_V1         IN 0  
++SIN 0 2.4 10000 0 0 0
+R_R6         0 OUT  6.75  
+R_R3         C N01610  1k  
+R_R4         N01079 E  0.5k  
+Q_Q1         C N02650 E BC368 
+R_R5         0 N01079  0.5k  
+R_R2         N02650 N00897  326594  
+V_V3         N00897 0 10Vdc
+R_R1         0 N02650  360k  
+C_C3         IN N02650  1u  
+V_V4         N01610 0 10Vdc
+C_C4         N01079 OUT  1u  

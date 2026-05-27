@@ -1,0 +1,62 @@
+
+**** 06/12/25 02:24:38 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-ss1"  [ C:\Users\alimi\Desktop\ELEC PROJECT\file2\ep2-SCHEMATIC1-ss1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ep2-SCHEMATIC1-ss1.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\ep2-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING ep2-SCHEMATIC1.net ****
+* source EP2
+Q_Q1         N01207 N00983 N00954 Q2N4355
+R_R1         N00983 N00857  360k  
+C_C1         N01061 N00983  1u  
+V_V1         N01061 GND DC 0Vdc AC 1Vac 
+R_R2         N00954 N00857  1k  
+C_C3         N01576 N01634  1u  
+R_R3         N01284 N00857  1k  
+V_V2         N00857 GND 10Vdc
+R_R4         N01487 N00857  1k  
+R_R5         GND N00983  180k  
+R_R6         GND N01207  1k  
+R_R7         GND N01284  360k  
+C_C2         N01207 N01284  1u  
+R_R8         N01576 N01547  0.5k  
+R_R9         GND N01576  0.5k  
+Q_Q2         N01487 N01284 N01547 BC368 
+R_R10         GND N01634  1k  
+
+**** RESUMING ep2-SCHEMATIC1-ss1.sim.cir ****
+.END
+
+ERROR -- Node N01207 is floating
+ERROR -- Node N00983 is floating
+ERROR -- Node N00954 is floating
+ERROR -- Node N00857 is floating
+ERROR -- Node N01061 is floating
+ERROR -- Node GND is floating
+ERROR -- Node N01576 is floating
+ERROR -- Node N01634 is floating
+ERROR -- Node N01284 is floating
+ERROR -- Node N01487 is floating
+ERROR -- Node N01547 is floating
