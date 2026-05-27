@@ -1,0 +1,26 @@
+* source EP3
+Q_Q1         N01207 O1 N00954 Q2N4355
+R_R1         O1 N00857  360k  
+C_C1         N04630 O1  1u  
+R_R13         IN N05372  100  
+C_C4         S IN  10u  
+V_V1         S 0 DC 0Vdc AC 20mVac 
+R_R2         N00954 N00857  1k  
+C_C3         N01576 OUT  1u  
+R_R14         0 IN  0.5k  
+R_R3         O2 N00857  326594  
+V_V2         N00857 0 10Vdc
+R_R4         N01487 N00857  1k  
+R_R16         0 N04695  7.8376k  
+R_R5         0 O1  180k  
+R_R6         0 N01207  322.7  
+R_R19         0 OUT  6.75  
+R_R7         0 O2  360k  
+C_C2         N01207 O2  1u  
+Q_Q3         N04630 N04695 N05372 BC368 
+R_R8         N01576 N01547  0.5k  
+R_R9         0 N01576  0.5k  
+Q_Q2         N01487 O2 N01547 BC368 
+R_R11         N04630 N00857  8.3635k  
+C_C5         0 N04695  1u  
+R_R12         N04695 N00857  50k  
