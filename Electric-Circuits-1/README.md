@@ -1,6 +1,6 @@
 # Electric Circuits I - Computer Assignment (Biomedical Signal Processing & Indicator System)
 
-This repository contains the simulation files and technical report for the **Electric Circuits I** computer assignment at the **University of Tehran** (Winter 1403).
+This repository contains the simulation files and technical report for the **Electric Circuits I** computer assignment at the **University of Tehran** (Winter 2024).
 
 ## Project Overview & System Phases:
 * **Part 1 (Op-Amp Fundamentals):** Design and simulation of basic analog blocks including amplifiers, buffers, integrators, and differentiators.
