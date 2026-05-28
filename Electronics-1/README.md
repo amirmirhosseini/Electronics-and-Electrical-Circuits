@@ -1,6 +1,6 @@
 # Electronics I - Final Project (Three-Stage Transistor Amplifier)
 
-This repository contains the simulation files and technical analysis for the **Electronics I** final project at the **University of Tehran** (Spring 1404).
+This repository contains the simulation files and technical analysis for the **Electronics I** final project at the **University of Tehran** (Spring 2025).
 
 ## Project Overview & Architecture:
 The project focuses on the theoretical design and **PSpice** simulation of a high-performance **Three-Stage Transistor Amplifier** using BJT transistors to optimize voltage gain, input impedance, and output swing.
