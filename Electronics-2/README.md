@@ -1,6 +1,6 @@
 # Electronics II - Computer Assignment (Differential Amplifiers Simulation)
 
-This repository contains the full simulation files and technical analysis for the **Electronics II** computer assignment at the **University of Tehran** (Fall 1404 / Semester 1404-1405).
+This repository contains the full simulation files and technical analysis for the **Electronics II** computer assignment at the **University of Tehran** (Fall 2025).
 
 ##  Project Overview & Objectives
 The project focuses on the theoretical design, optimization, and **NI Multisim** simulation of high-performance **Differential Amplifiers** to evaluate their performance under common-mode and differential-mode signals.
