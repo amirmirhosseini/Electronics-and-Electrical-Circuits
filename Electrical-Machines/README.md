@@ -1,6 +1,6 @@
 # Electrical Machines - Finite Element Analysis (FEA) of Magnetic Circuits
 
-This repository contains the advanced simulations and electromagnetic analysis for the **Electrical Machines** course at the **University of Tehran**. The projects utilize **COMSOL Multiphysics (2D)** to perform Finite Element Analysis (FEA) on magnetic cores, solving Maxwell's equations numerically.(Winter 1404)
+This repository contains the advanced simulations and electromagnetic analysis for the **Electrical Machines** course at the **University of Tehran**. The projects utilize **COMSOL Multiphysics (2D)** to perform Finite Element Analysis (FEA) on magnetic cores, solving Maxwell's equations numerically.(Winter 2025)
 
 ## Project Objectives & Simulation Core
 
